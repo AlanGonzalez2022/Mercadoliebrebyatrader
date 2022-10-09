@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="login.css">
+      </head>
+<body>
+    <header class="headercolor">
+        <div class="headernuevo">
+            <img class= "logochico" width="300px" src="./images/logo-mercado-liebre.svg" alt="logo">
+                <div class="barrita">  
+                    <input type ="text" placeholder="Qué estás buscando?"><i class="fa-solid fa-magnifying-glass lupita"></i>
+                </div>
+            <div class="centramos"><i class="fa-sharp fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjetas de crédito!</div>
+        </div>
+
+        <br>
+  
+    <main>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <br>
+                <li><a href="http://localhost:3000/registro">Creá tu cuenta</a> <i class="fa-solid fa-address-card"></i> </li>
+                <li><a href="http://localhost:3000/login">Ingresá</a> <i class="fa-solid fa-right-to-bracket"></i> </li>
+                <li><a href="#">Mis compras</a> <i class="fa-solid fa-basket-shopping"> </i></li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <img class= "banneradded" width="300px" src="./images/img-home-banner.jpg" alt="banner">
+        </nav>
+ 
+        <div class="burger-menu">
+            <i class="fas fa-bars centrar"></i>
+        </div><br>
+    </header>
+
+    <form action="/" method="GET">
+    <h2>Login de Usuario</h2>
+
+    <div> 
+        <label class="usuariolabel" for="usuario">Usuario:</label><br>
+        <input required type="text" id="usuario" name="usuario" value="alan01"><br>
+        
+    </div>
+    <div>
+        <label class="contraseñalabel" for="contraseña">Contraseña:</label><br>
+        <input required type="password" id="contraseña" name="contraseña"><br>
+        
+    </div>
+    <div>
+        <input class="login1" type="submit" value="Enviar">
+    </div>
+</form>
+    
+</body>
+</html>

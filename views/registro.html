@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Registro</h2>
+
+<form action="/" method="GET" class="crear-form">
+  <div class="forma">
+    <label class="nombre" for="nombre">Nombre:</label><br>
+    <input minlength="5" required type="text" id="nombre" name="nombre" value="Alan" class="control"><br>
+    
+  </div>
+  <div class="forma">
+    <label class="apellido" for="apellido">Apellido:</label><br>
+    <input required type="text" id="apellido" name="apellido" value="Gonzalez" class="control"><br>
+    
+  </div>
+  <div class="forma">
+    <label class="usuario" for="usuario">Usuario:</label><br>
+    <input required type="text" id="usuario" name="usuario" value="Juan Pablo" class="control"><br>
+    
+  </div>
+  <div class="forma">
+    <label class="cumpleaños" for="birthday">Cumpleaños:</label>
+    <input required type="date" id="birthday" name="birthday" class="control"><br>
+  
+  </div>
+  <div class="forma">
+    <label class="domicilio" for="domicilio">Domicilio:</label><br>
+    <input required type="text" id="domicilio" name="domicilio" value="Avellaneda" class="control"><br>
+   
+  </div>
+  <div class="forma">
+    <input type="radio" id="comprador" name="perfil" value="comprador">
+    <label class="comprador" for="html">Comprador</label>
+  </div>
+  <div class="forma">
+    <input type="radio" id="vendedor" name="perfil" value="vendedor">
+    <label class="vendedor" for="css">Vendedor</label><br>
+  </div>
+  
+    <input class="opciones" type="checkbox" id="electro" name="intereses" value="electro">
+    <label for="electro"> Electro</label><br>
+    <input class="opciones" type="checkbox" id="hogar" name="intereses" value="hogar">
+    <label for="hogar"> Hogar</label><br>
+    <input class="opciones" type="checkbox" id="moda" name="intereses" value="moda">
+    <label for="moda"> Moda</label><br>
+    <input class="opciones" type="checkbox" id="jugueteria" name="intereses" value="jugueteria">
+    <label for="moda"> Juguetería</label><br>
+    <input class="opciones" type="checkbox" id="vida-sana" name="intereses" value="vida-sana">
+    <label for="vida-sana">Vida Sana</label><br>
+
+  <div class="forma">
+    <label class="subefoto" for="fotousuario">Sube una foto:</label>
+    <input required type="file" id="fotousuario" name="fotousuario" class="control"><br>
+  
+  </div>
+  <div class="forma">  
+    <label class="contraseña" for="contraseña">Contraseña:</label><br>
+    <input required type="password" id="contraseña" name="contraseña" class="control"><br>
+   
+  </div>
+  <div class="forma">
+    <label class="contraseña" for="contraseña-confirmar">Confirmar Contraseña:</label><br>
+    <input required type="password" id="contraseña-confirmar" name="contraseña-confirmar" class="control"><br>
+    
+  </div>
+  
+  <div class="forma">
+    <input type="submit" value="Enviar" class="botton-formulario"><a href="#"></a>
+    <input type="reset" value="Borrar" class="botton-formulario">
+  </div>  
+</form>
+</body>
+</html>

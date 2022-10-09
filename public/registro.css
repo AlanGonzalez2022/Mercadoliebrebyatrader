@@ -1,0 +1,237 @@
+body{
+    background-color:#ebebeb;
+    margin-left: -1vw;
+}
+
+h2{    
+    margin-left: 2vw;
+    margin-bottom: -2vw;
+}
+
+.crear-form {
+    padding: 20px 15px;
+    margin-left: -1vw;
+}
+
+.forma {
+    margin-bottom: 2px;
+    padding-bottom: 2vw;
+}
+
+.forma label {
+    margin-bottom: 2px;
+    font-style: italic;
+    display: block;
+} 
+
+label.nombre{
+ margin-bottom: -3vw;
+ margin-top: 1vw;
+ font-style: normal;
+ font-size: 1em;
+}
+
+label.apellido{
+ margin-bottom: -3vw;
+ margin-top: 1vw;
+ font-style: normal;
+ font-size: 1em;
+}
+
+label.usuario{
+ margin-bottom: -3vw;
+ margin-top: 1vw;
+ font-style: normal;
+ font-size: 1em;
+}
+
+label.cumpleaños{
+ margin-top: 1vw;
+ font-style: normal;
+ font-size: 1em;
+}
+
+label.domicilio{
+ margin-top: 2vw;
+ margin-bottom: -4vw;
+ font-style: normal;
+ font-size: 1em;
+}
+
+label.contraseña{
+ margin-top: 2vw;
+ margin-bottom: -4vw;
+ font-style: normal;
+ font-size: 1em;
+}
+
+label.subefoto{
+    margin-top: 1vw;
+    margin-bottom: 0vw;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#fotousuario{
+    margin-left: -2vw;
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+}
+
+.botton-formulario {
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10%;
+    color: white;
+    font-size: 10px;
+    margin-top: 2vw;
+}
+
+.botton-formulario:hover{
+    background-color: #0022AA;
+    cursor: pointer;
+}
+
+@media (min-width:768px){
+body{
+  margin-left: 1vw;
+}
+
+h2{
+    margin-left: 1vw;
+    margin-bottom: -2vw;
+}
+
+label.nombre {
+    margin-bottom: -1vw;
+    margin-top: 1vw;
+    font-style: normal;
+    font-size: 1em;
+}
+
+label.apellido {
+  margin-bottom: -1vw;
+  margin-top: 1vw;
+  font-style: normal;
+  font-size: 1em;
+}
+
+label.usuario {
+    margin-bottom: -1vw;
+    margin-top: 1vw;
+    font-style: normal;
+    font-size: 1em;
+}
+
+label.domicilio {
+    margin-top: 2vw;
+    margin-bottom: -1vw;
+    font-style: normal;
+    font-size: 1em;
+}
+
+label.contraseña{
+    margin-top: 2vw;
+    margin-bottom: -1vw;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.botton-formulario {
+    background-color: green;
+    border: none;
+    padding: 7px 11px;
+    border-radius: 14%;
+    color: white;
+    font-size: 20px;
+    margin-top: 2vw;
+}
+
+#fotousuario {
+    margin-left: -0.5vw;
+}
+
+}
+
+@media (min-width:1400px){
+    body{
+      margin-left: 1vw;
+    }
+    
+    .forma {
+        margin-bottom: 2px;
+        padding-bottom: 0.5vw;
+        margin-left: 1vw;
+    }
+    
+    h2{
+        margin-left: 1vw;
+        margin-bottom: -1vw;
+        font-size: 2vw;
+    }
+    
+    label.nombre {
+        margin-bottom: -1vw;
+        margin-top: 1vw;
+        font-style: normal;
+        font-size: 1.5em;
+    }
+    
+    label.apellido {
+      margin-bottom: -1vw;
+      margin-top: 1vw;
+      font-style: normal;
+      font-size: 1.5em;
+    }
+    
+    label.usuario {
+        margin-bottom: -1vw;
+        margin-top: 1vw;
+        font-style: normal;
+        font-size: 1.5em;
+    }
+    
+    label.domicilio {
+        margin-top: 2vw;
+        margin-bottom: -1vw;
+        font-style: normal;
+        font-size: 1.5em;
+    }
+
+    .opciones{
+        margin-left: 1vw;
+    }
+
+    label.cumpleaños {
+        margin-top: 2vw;
+        margin-bottom: 0vw;
+        font-style: normal;
+        font-size: 1.5em;
+    }
+    
+    label.contraseña{
+        margin-top: 2vw;
+        margin-bottom: -1vw;
+        font-style: normal;
+        font-size: 1.5em;
+    }
+    
+    .botton-formulario {
+        background-color: green;
+        border: none;
+        padding: 7px 11px;
+        border-radius: 14%;
+        color: white;
+        font-size: 20px;
+        margin-top: 2vw;
+    }
+    
+    #fotousuario {
+        margin-left: -0.5vw;
+    }
+    
+}
